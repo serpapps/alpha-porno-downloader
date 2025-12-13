@@ -1,9 +1,18 @@
-# Alpha Porno Downloader
-
-Download videos from Alpha Porno
+# Alpha Porno Video Downloader App (Browser Extension for Chrome, Firefox, Edge, Brave, Arc, Safari)
 
 
+## 🔗 Links
 
+- 🎁 Get it [here](https://serp.ly/alpha-porno-downloader)
+- ❓ Check FAQs [here](https://github.com/orgs/serpapps/discussions/categories/faq)
+- 🐛 Report bugs [here](https://github.com/serpapps/alpha-porno-video-downloader/issues)
+- 🆕 Request features [here](https://github.com/serpapps/alpha-porno-video-downloader/issues)
+
+## Resources
+
+- [Repository]()
+- [Gist]()
+- [How to download pornhub videos]()
 
 
 ---
