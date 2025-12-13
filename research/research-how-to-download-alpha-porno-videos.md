@@ -449,7 +449,7 @@ yt-dlp --write-subs --sub-lang en "URL"
 yt-dlp --age-limit 21 "URL"
 
 # Use custom user agent
-yt-dlp --user-agent "Mozilla/5.0 ..." "URL"
+yt-dlp --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "URL"
 
 # Use cookies file for authentication
 yt-dlp --cookies cookies.txt "URL"
@@ -553,7 +553,7 @@ ffmpeg -headers "Referer: https://www.alphaporno.com/" \
   -c copy output.mp4
 
 # Download with user agent
-ffmpeg -user_agent "Mozilla/5.0 ..." \
+ffmpeg -user_agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
   -i "VIDEO_URL" \
   -c copy output.mp4
 ```
@@ -614,7 +614,7 @@ curl -H "Referer: https://www.alphaporno.com/" \
   -o output.mp4 "VIDEO_URL"
 
 # Download with custom user agent
-curl -A "Mozilla/5.0 ..." \
+curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
   -o output.mp4 "VIDEO_URL"
 
 # Download with progress bar
@@ -644,7 +644,7 @@ wget --referer="https://www.alphaporno.com/" \
   -O output.mp4 "VIDEO_URL"
 
 # Download with user agent
-wget --user-agent="Mozilla/5.0 ..." \
+wget --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
   -O output.mp4 "VIDEO_URL"
 
 # Resume interrupted download
@@ -670,7 +670,7 @@ aria2c -x 16 -s 16 -o output.mp4 "VIDEO_URL"
 # Download with headers
 aria2c -x 16 -s 16 \
   --referer="https://www.alphaporno.com/" \
-  --user-agent="Mozilla/5.0 ..." \
+  --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
   -o output.mp4 "VIDEO_URL"
 
 # Download with retry
@@ -789,7 +789,7 @@ import json
 
 def extract_video_url(page_url):
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     }
     
     response = requests.get(page_url, headers=headers)
@@ -814,7 +814,7 @@ def extract_video_url(page_url):
 def download_video(video_url, output_path):
     response = requests.get(video_url, stream=True, headers={
         'Referer': 'https://www.alphaporno.com/',
-        'User-Agent': 'Mozilla/5.0 ...'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     })
     
     with open(output_path, 'wb') as f:
@@ -840,7 +840,7 @@ def download_with_ytdlp(url, output_path='%(title)s.%(ext)s'):
         'merge_output_format': 'mp4',
         'http_headers': {
             'Referer': 'https://www.alphaporno.com/',
-            'User-Agent': 'Mozilla/5.0 ...'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         },
         'retries': 10,
         'fragment_retries': 10,
@@ -1090,7 +1090,7 @@ class AlphaPornoExtractor(BaseExtractor):
     def __init__(self):
         self.base_url = "https://www.alphaporno.com"
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 ...',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Referer': self.base_url
         }
     
@@ -1127,7 +1127,7 @@ class FfmpegDownloader(BaseDownloader):
 ```python
 # config.py
 CONFIG = {
-    'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+    'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'referer': 'https://www.alphaporno.com/',
     'timeout': 30,
     'retries': 10,
@@ -1466,7 +1466,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.8, 3.9, '3.10', 3.11]
+        python-version: ['3.8', '3.9', '3.10', '3.11']
     
     steps:
     - uses: actions/checkout@v3
@@ -1475,6 +1475,11 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: ${{ matrix.python-version }}
+    
+    - name: Install ffmpeg
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ffmpeg
     
     - name: Install dependencies
       run: |
@@ -1653,7 +1658,7 @@ yt-dlp \
 
 **Solutions:**
 1. Add referer: `yt-dlp --add-header "Referer: https://www.alphaporno.com/" URL`
-2. Change user agent: `yt-dlp --user-agent "Mozilla/5.0 ..." URL`
+2. Change user agent: `yt-dlp --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" URL`
 3. Use cookies from browser
 
 ### Problem: Download is very slow
@@ -1709,7 +1714,7 @@ class AlphaPornoDownloader:
             'merge_output_format': 'mp4',
             'http_headers': {
                 'Referer': 'https://www.alphaporno.com/',
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
             },
             'retries': 10,
             'fragment_retries': 20,
@@ -1728,7 +1733,9 @@ class AlphaPornoDownloader:
         try:
             # Adjust quality if specified
             if quality != '1080p':
-                self.ydl_opts['format'] = f'bestvideo[height<={quality[:-1]}]+bestaudio/best'
+                # Extract numeric quality value (e.g., '720p' -> '720')
+                quality_value = quality.rstrip('p') if quality.endswith('p') else quality
+                self.ydl_opts['format'] = f'bestvideo[height<={quality_value}]+bestaudio/best'
             
             with yt_dlp.YoutubeDL(self.ydl_opts) as ydl:
                 info = ydl.extract_info(url, download=True)
