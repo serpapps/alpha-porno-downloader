@@ -30,7 +30,9 @@ If you have ever tried to download AlphaPorno videos and hit a wall because the 
 
 ## Why SERP AlphaPorno Downloader
 
-AlphaPorno delivers video through a streaming method that prevents right-click saving entirely. There is no "Save As" option, and the video file is never exposed as a direct link on the page. Generic downloaders typically choke on AlphaPorno because the site uses content delivery restrictions and referrer checks that block outside tools from accessing the video data. SERP AlphaPorno Downloader is purpose-built to work within these constraints — it detects the stream automatically, handles the conversion to a downloadable file inside your browser, and bypasses the restrictions that stop other tools cold. No desktop apps to install, no command-line utilities to learn, and no copy-pasting URLs into third-party websites.
+AlphaPorno delivers video through a streaming method that prevents right-click saving entirely. There is no "Save As" option, and the video file is never exposed as a direct link on the page. Generic downloaders typically choke on AlphaPorno because the site uses content delivery restrictions and referrer checks that block outside tools from accessing the video data. 
+
+SERP AlphaPorno Downloader is purpose-built to work within these constraints — it detects the stream automatically, handles the conversion to a downloadable file inside your browser, and bypasses the restrictions that stop other tools cold. No desktop apps to install, no command-line utilities to learn, and no copy-pasting URLs into third-party websites.
 
 ## Features
 
