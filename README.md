@@ -13,20 +13,17 @@ SERP AlphaPorno Downloader is a browser extension built specifically for saving 
 
 If you have ever tried to download AlphaPorno videos and hit a wall because the site streams content in a way that blocks saving, this extension handles the entire process for you.
 
-## 🔗 Links
+## Preview
 
-- 🎁 Get it [**here**](https://serp.ly/alpha-porno-downloader)
-- ❓ Check FAQs [**here**](https://help.serp.co/en/)
-- 🐛 Report bugs [**here**](https://github.com/serpapps/alpha-porno-downloader/issues)
-- 🆕 Request features [**here**](https://github.com/serpapps/alpha-porno-downloader/discussions)
-- 📦 Latest release [**here**](https://github.com/serpapps/alpha-porno-downloader/releases/latest)
+![AlphaPorno Downloader workflow preview](assets/workflow-preview.webp)
 
-## Resources
+## Links
 
-- 💬 [**Community**](https://community.serp.co)
-- 💌 [**Newsletter**](https://newsletter.serp.co)
-- 🛒 [**Shop**](https://store.serp.co)
-- 🎓 [**Courses**](https://courses.serp.co)
+- :rocket: Get it here: [AlphaPorno Downloader](https://serp.ly/alpha-porno-downloader)
+- :new: Latest release: [GitHub Releases](https://github.com/serpapps/alpha-porno-downloader/releases/latest)
+- :question: Help center: [SERP Help](https://help.serp.co/en/)
+- :beetle: Report bugs: [GitHub Issues](https://github.com/serpapps/alpha-porno-downloader/issues)
+- :bulb: Request features: [Feature Requests](https://github.com/serpapps/alpha-porno-downloader/discussions)
 
 ## Why SERP AlphaPorno Downloader
 
@@ -140,14 +137,6 @@ Make sure you have pressed play on the video first. The extension needs the stre
 
 Yes. Video processing happens entirely in your browser — nothing is uploaded. Authentication uses a secure one-time password sent to your email — no passwords are stored.
 
-## Important Notes
+## License
 
-This extension is intended for downloading content you own or have permission to download. Users are responsible for complying with applicable copyright laws. You must press play on a video before the extension can detect it. Quality options are limited to what AlphaPorno provides for each video. An active internet connection is required throughout the download process.
-
-## Keywords
-
-`alphaporno downloader` `alphaporno video downloader` `download alphaporno` `alphaporno mp4` `alphaporno browser extension` `save alphaporno videos`
-
-## Get It
-
-- **Start here:** [SERP AlphaPorno Downloader](https://serp.cc/VDM-alpha-porno-video-downloader)
+This repository is distributed under the proprietary SERP Apps license in the [LICENSE](LICENSE) file. Review that file before copying, modifying, or redistributing any part of this project.
