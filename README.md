@@ -19,7 +19,7 @@ If you have ever tried to download AlphaPorno videos and hit a wall because the 
 
 ## Links
 
-- :rocket: Get it here: [AlphaPorno Downloader](https://serp.ly/alpha-porno-downloader)
+- :rocket: Get it here: [AlphaPorno Downloader](https://serp.ly/alpha-porno-downloader?via=github)
 - :new: Latest release: [GitHub Releases](https://github.com/serpapps/alpha-porno-downloader/releases/latest)
 - :question: Help center: [SERP Help](https://help.serp.co/en/)
 - :beetle: Report bugs: [GitHub Issues](https://github.com/serpapps/alpha-porno-downloader/issues)
@@ -44,7 +44,7 @@ SERP AlphaPorno Downloader is purpose-built to work within these constraints —
 
 ## How It Works
 
-1. **Install** — Add SERP AlphaPorno Downloader to your browser from the [product page](https://serp.ly/alpha-porno-downloader), or download the latest version from [GitHub Releases](https://github.com/serpapps/alpha-porno-downloader/releases/latest) and load it manually
+1. **Install** — Add SERP AlphaPorno Downloader to your browser from the [product page](https://serp.ly/alpha-porno-downloader?via=github), or download the latest version from [GitHub Releases](https://github.com/serpapps/alpha-porno-downloader/releases/latest) and load it manually
 2. **Play** — Open AlphaPorno and start any video. The extension immediately detects the stream in the background.
 3. **Choose** — Click the in-page download button on the player or the extension icon in your toolbar. A quality selector appears with all available resolutions.
 4. **Save** — Hit Download and the video converts to MP4 and saves directly to your Downloads/AlphaPorno folder.
@@ -96,7 +96,7 @@ Generic downloaders are not designed for AlphaPorno. They fail because the site 
 
 ## Trial & Pricing
 
-3 free downloads are included — no credit card required. Sign in with your email, verify with a one-time code, and your trial is ready immediately. Upgrade to a license for unlimited downloads at the [product page](https://serp.ly/alpha-porno-downloader).
+3 free downloads are included — no credit card required. Sign in with your email, verify with a one-time code, and your trial is ready immediately. Upgrade to a license for unlimited downloads at the [product page](https://serp.ly/alpha-porno-downloader?via=github).
 
 - Works on Chrome, Edge, Brave, Opera, Firefox, Whale, and Yandex
 - Secure one-time-passcode sign-in — no passwords stored
